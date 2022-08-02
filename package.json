@@ -1,0 +1,46 @@
+{
+  
+  "scripts": {
+  
+    
+  "dev": "parcel ./src/index.html",
+  
+    
+  "prebuild": "npx rimraf build",
+  
+    
+  "build": "parcel build --public-url ./ ./src/index.html --no-minify"
+  
+  },
+  
+  "type": "module",
+  
+  "dependencies": {
+  
+    
+  "@popperjs/core": "^2.11.5",
+  
+    
+  "bootstrap": "^5.2.0",
+  
+    
+  "dotenv": "^16.0.1",
+  
+    
+  "express": "^4.18.1",
+  
+    
+  "pg": "^8.7.3",
+  
+    
+  "tabulator-tables": "^5.3.1"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "sass": "^1.54.0"
+  
+  }
+}

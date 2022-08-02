@@ -1,0 +1,68 @@
+//$body-bg: rgb(167, 199, 231);
+$body-bg:white;
+$body-color: rgb(48,48,48);
+$primary: black;
+$headerBackgroundColor: rgb(166,142,212);
+
+$headerTextColor: white;
+$rowTextColor: white;
+$rowBackgroundColor:rgb(211,199,233);
+$rowAltBackgroundColor: rgb(199,184,228);
+$footerBackgroundColor: rgb(166,142,212);
+
+
+body{
+    background: linear-gradient(90deg, #b9deed, #efefef);
+}
+
+.tabulator{
+    border-radius: 1%;
+
+}
+
+@import  "../node_modules/tabulator-tables/src/scss/themes/bootstrap/tabulator_bootstrap5.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+.navbar-img{
+    mix-blend-mode: color-burn;
+}
+
+.navbar{
+    //background: rgb(248,187,208);
+    background: linear-gradient(90deg, #f598a8, #f6b2ee);
+    font-family: 'Square Peg', cursive;
+    font-size:30px;
+}
+
+.navbar-brand{
+    font-size:30px;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+}
+
+.formContainer{
+    margin-top: 15px;
+    width: 50%;
+}
+
+#searchBtn, #submitBtn{
+    background-color: rgb(195, 177, 225);
+}
+
+
+.resultCard{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: black;
+}
