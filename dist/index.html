@@ -1,165 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Lashes By Emalee</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>Lashes By Emalee</title>
 
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Square+Peg&display=swap" rel="stylesheet"> 
-    
-    <link rel="stylesheet" href="custom.079a263b.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Square+Peg&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="custom.6f3c073d.css">
 </head>
-    
+
 <body>
-    <div class="container">
+  <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark mt-5">
-        <div class="container-fluid">
-            <a class="navbar-img">
-                <img src="pic1.40e09bcc.png" background="transparent" alt="" width="50" height="50">
-            </a>
-          <a class="navbar-brand fw-bold text-primary" href="#">Lashes By Emalee</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" id="link1" href="#">New Customer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="link2" href="#">Search Customers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="link3" href="#">New Appointment</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="link4" href="#">Search Appointments</a>
-              </li>
-              
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-img">
+          <img src="pic1.40e09bcc.png" background="transparent" alt="" width="50" height="50">
+        </a>
+        <a class="navbar-brand fw-bold text-primary" href="#">Lashes By Emalee</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" id="link1" href="#">New Customer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link2" href="#">Search Customers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link3" href="#">New Appointment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link4" href="#">Search Appointments</a>
+            </li>
+
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+  </div>
+
+
+
+  <form id="searchForm" class="container mt-3">
+
+    <div class="row  justify-content-md-center">
+
+      <div class="col-8 sm-auto">
+        <label class="form-label text-white">Search Name</label>
+        <input type="text" class="form-control" id="searchText" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Please be gentle or you'll break my code.</div>
+      </div>
+      <div class="col sm-auto">
+        <button type="submit" class="btn btn-primary" id="searchBtn" style="margin-top: 2em;width:100%">Search</button>
+      </div>
+
     </div>
 
-    <form id="searchForm" class="row mt-5">
-        <div class="col-12 col-md-6 col-lg-4">
-            
-        </div>
-        <div class="col-sm">
-            <label class="form-label text-white">Search Name</label>
-            <input type="text" class="form-control" id="searchText" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Please enter first and last name or you'll break my code.</div>
-        </div>
-        <div class="col-12 col-md-2">
-            <button type="submit" class="btn btn-primary" id="searchBtn" style="margin-top: 2em;width:100%">Search</button>
-        </div>
     
-        <div class="col"></div>
-    
-</form>
-
-    <div class="container pt-3 mb-5" id="picture-container">
-        <div class="row mt-5">
-            <div class="col-sm">
-                <div class="card">
-                    <img src="unnamed2.60dfb486.jpg" class="card-img-top rounded-bottom" alt="Large building">
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img src="unnamed.d073c720.jpg" class="card-img-top rounded-bottom" alt="Large building">
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img src="unnamed3.ed58d42e.jpg" class="card-img-top rounded-bottom" alt="Large building">
-                </div>
-            </div>
-        </div>
-
-</div>
-
-<div class="formContainer container-fluid">
-
-<form id="newForm">
-    <fieldset>
-      <legend id="formTitle">New Customer Information</legend>
-      <div class="mb-3">
-        <label class="form-label">First Name</label>
-        <input type="text" id="newFirstName" class="form-control" placeholder="First Name">
-      </div>
-      <div class="mb-3">
-        <label class="form-label">First Name</label>
-        <input type="text" id="newLastName" class="form-control" placeholder="Last Name">
-      </div>
-      <div class="mb-3">
-        <label class="form-label">Phone Number</label>
-        <input type="text" id="newPhoneNumber" class="form-control" placeholder="Phone Number">
-      </div>
-      <div class="mb-3">
-        <label class="form-label">Eye Shape</label>
-        <select id="newEyeShape" name="eye" class="form-select">
-          <option>Almond</option>
-          <option>Round</option>
-          <option>Close Set</option>
-          <option>Wide Set</option>
-          <option>Downturned</option>
-          <option>Upturned</option>
-          <option>Monolid</option>
-          <option>Protruding</option>
-        </select>
-      </div>
-      <div class="mb-3">
-        <label class="form-label">Lash Type</label>
-        <select id="newLashType" class="form-select">
-          <option>Straight</option>
-          <option>Downward</option>
-          <option>Curled</option>
-          <option>Thin</option>
-        </select>
-      </div>
-      <div class="mb-3">
-        <label class="form-label">Tweezers</label>
-        <select id="newTweezers" class="form-select">
-          <option>Curved Isolation</option>
-          <option>M.I.L.F</option>
-          <option>P6 Ultimate Volume</option>
-          <option>P0 90 Degree Volume</option>
-          <option>Blue Magic Mike</option>
-          <option>Straight Up</option>
-          <option>Just The Tip</option>
-          <option>Pink Isolating</option>
-        </select>
-      </div>
-      <fieldset disabled="">
-      <div class="mb-3">
-        <label for="disabledTextInput" class="form-label">Brand</label>
-        <input type="text" id="newBrand" class="form-control text-primary">
-      </div>
-    </fieldset>
-      
-      
-     
-      <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
-    </fieldset>
   </form>
 
-</div>
+  <form id="searchForm2" class="container mt-3">
 
+    <div class="row  justify-content-md-center">
 
-     
+      <div class="col-8 sm-auto">
+        <label class="form-label text-white">Search Appointments</label>
+        <input id="searchDate" class="form-control" type="date">
+      </div>
+      <div class="col sm-auto">
+        <button type="submit" class="btn btn-primary" id="searchBtn2" style="margin-top: 2em;width:100%">Search</button>
+      </div>
+
+    </div>
 
     
+  </form>
 
-    <script src="src.3371aaec.js"></script>
+
+  <div class="container pt-3 mb-5" id="picture-container">
+    <div class="row mt-5">
+      <div class="col-sm">
+        <div class="card">
+          <img src="unnamed2.4b7c4c5e.jpg" class="card-img-top rounded-bottom" alt="Large building">
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card">
+          <img src="unnamed.d073c720.jpg" class="card-img-top rounded-bottom" alt="Large building">
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card">
+          <img src="unnamed3.1767beb0.jpg" class="card-img-top rounded-bottom" alt="Large building">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="formContainer container-fluid">
+
+    <form id="newForm">
+      <fieldset>
+        <legend id="formTitle">New Customer Information</legend>
+        <div class="mb-3">
+          <label class="form-label">First Name</label>
+          <input type="text" id="newFirstName" class="form-control" placeholder="First Name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Last Name</label>
+          <input type="text" id="newLastName" class="form-control" placeholder="Last Name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Phone Number</label>
+          <input type="text" id="newPhoneNumber" class="form-control" placeholder="Phone Number">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Eye Shape</label>
+          <select id="newEyeShape" name="eye" class="form-select">
+            <option>Almond</option>
+            <option>Round</option>
+            <option>Close Set</option>
+            <option>Wide Set</option>
+            <option>Downturned</option>
+            <option>Upturned</option>
+            <option>Monolid</option>
+            <option>Protruding</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Lash Type</label>
+          <select id="newLashType" class="form-select">
+            <option>Straight</option>
+            <option>Downward</option>
+            <option>Curled</option>
+            <option>Thin</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Tweezers</label>
+          <select id="newTweezers" class="form-select">
+            <option>Curved Isolation</option>
+            <option>M.I.L.F</option>
+            <option>P6 Ultimate Volume</option>
+            <option>P0 90 Degree Volume</option>
+            <option>Blue Magic Mike</option>
+            <option>Straight Up</option>
+            <option>Just The Tip</option>
+            <option>Pink Isolating</option>
+          </select>
+        </div>
+        <fieldset disabled="">
+          <div class="mb-3">
+            <label for="disabledTextInput" class="form-label">Brand</label>
+            <input type="text" id="newBrand" class="form-control text-primary">
+          </div>
+        </fieldset>
+
+
+
+        <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+      </fieldset>
+    </form>
+
+  </div>
+
+  <div class="formContainer container-fluid">
+
+    <form id="newForm2">
+      <fieldset>
+        <legend id="formTitle2">New Appointment</legend>
+        <div class="mb-3">
+          <label class="form-label">Choose Customer</label>
+          <select id="chooseCustomer" name="chooseCustomer" class="form-select">
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="newDate">Date</label>
+          <input id="newDate" class="form-control" type="date">
+          <span id="startDateSelected"></span>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Lash Style</label>
+          <select id="newLashStyle" class="form-select">
+            <option>Classic</option>
+            <option>Volume</option>
+            <option>Hybrid</option>
+            <option>Mega Volume</option>
+            <option>Anime</option>
+            <option>Wispy</option>
+            <option>Cat Eye</option>
+            <option>Doll</option>
+            <option>Dramatic</option>
+            <option>Baby Doll</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Length</label>
+          <select id="newLength" class="form-select">
+            <option>5mm</option>
+            <option>6mm</option>
+            <option>7mm</option>
+            <option>8mm</option>
+            <option>9mm</option>
+            <option>10mm</option>
+            <option>11mm</option>
+            <option>12mm</option>
+            <option>13mm</option>
+            <option>14mm</option>
+            <option>15mm</option>
+            <option>16mm</option>
+            <option>17mm</option>
+            <option>18mm</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Thickness</label>
+          <select id="newThickness" class="form-select">
+            <option>.03mm</option>
+            <option>.04mm</option>
+            <option>.05mm</option>
+            <option>.06mm</option>
+            <option>.07mm</option>
+            <option>.08mm</option>
+            <option>.09mm</option>
+            <option>.10mm</option>
+            <option>.11mm</option>
+            <option>.12mm</option>
+            <option>.13mm</option>
+            <option>.14mm</option>
+            <option>.15mm</option>
+            <option>.16mm</option>
+            <option>.17mm</option>
+            <option>.18mm</option>
+            <option>.19mm</option>
+            <option>.20mm</option>
+            <option>.21mm</option>
+            <option>.22mm</option>
+            <option>.23mm</option>
+            <option>.24mm</option>
+            <option>.25mm</option>
+            <option>.26mm</option>
+            <option>.27mm</option>
+            <option>.28mm</option>
+            <option>.29mm</option>
+            <option>.30mm</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Curl</label>
+          <select id="newCurl" class="form-select">
+            <option>C</option>
+            <option>CC</option>
+            <option>D</option>
+            <option>L</option>
+            <option>M</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Glue</label>
+          <select id="newGlue" class="form-select">
+            <option>Four Seasons</option>
+            <option>Uh Huh Honey Clear</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="extraProduct1">
+            <label class="form-check-label" for="extraProduct1">
+              Glue Support (Primer)
+            </label>
+          </div>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="extraProduct2">
+            <label class="form-check-label" for="extraProduct2">
+              Supreme Bonder
+            </label>
+          </div>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="extraProduct3">
+            <label class="form-check-label" for="extraProduct3">
+              Cleanser
+            </label>
+          </div>
+        </div>
+
+
+
+        <button type="submit" class="btn btn-primary" id="submitBtn2">Submit</button>
+      </fieldset>
+    </form>
+
+  </div>
+
+
+
+
+
+  <script src="src.9d19433c.js"></script>
 </body>
+
 </html>

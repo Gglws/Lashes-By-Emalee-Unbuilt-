@@ -2,13 +2,13 @@
 $body-bg:white;
 $body-color: rgb(48,48,48);
 $primary: black;
-$headerBackgroundColor: rgb(166,142,212);
+$headerBackgroundColor:  rgb(195, 177, 225);;
 
 $headerTextColor: white;
 $rowTextColor: white;
 $rowBackgroundColor:rgb(211,199,233);
 $rowAltBackgroundColor: rgb(199,184,228);
-$footerBackgroundColor: rgb(166,142,212);
+$footerBackgroundColor:  rgb(195, 177, 225);;
 
 
 body{
@@ -55,7 +55,7 @@ body{
     width: 50%;
 }
 
-#searchBtn, #submitBtn{
+#searchBtn, #searchBtn2, #submitBtn, #submitBtn2{
     background-color: rgb(195, 177, 225);
 }
 
@@ -64,5 +64,13 @@ body{
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 30px;
+    background: black;
+}
+
+.resultCard2{
+    width: 68%;
+    margin-left: 16%;
+    margin-right: 16%;
     background: black;
 }
